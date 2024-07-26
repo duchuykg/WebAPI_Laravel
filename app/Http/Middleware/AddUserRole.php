@@ -4,9 +4,7 @@ namespace App\Http\Middleware;
 
 use App\Utilities\Traits\JWTAPI;
 use Closure;
-use Tymon\JWTAuth\Facades\JWTAuth;
-use Tymon\JWTAuth\Exceptions\JWTException;
-use App\Exceptions\ForbiddenException;
+
 use Exception;
 
 class AddUserRole
